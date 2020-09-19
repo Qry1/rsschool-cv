@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Stsiapan Sukach | rsschool-cv</title>
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <div class="container">
+      <header>
+         <h1>Stsiapan Sukach</h1>
+         <img src="https://lenta.ua/storage/03/12/22/19/890_450_5c6c341968d62.jpg" alt="cat">
+      </header>
+      <section class="contact">
+         <h3>Contact's</h3>
+         <ul>
+            <li><b>Telegram:</b> @Stsiapan_Sukach</li>
+            <li><b>Phone:</b> +375 29 150 20 80</li>
+            <li><b>Skype:</b> live:stepansukac</li>
+            <li><b>VK: </b><a href="https://vk.com/id89240668">Page</a></li>
+         </ul>
+      </section>
+      <section class="wishes">
+         <h3>Hope's and wishes</h3>
+         <p>
+            My main goal of admission to the course is to improve my programming skills and successfully find a job.
+         </p>
+      </section>
+      <section class="skills">
+         <h3>Skills</h3>
+         <p>
+            HTML5, CSS3, JS, Git, SQL
+         </p>
+      </section>
+      <section class="code">
+         <h3>Code examples</h3>
+         <code>
+            <pre>
+               SELECT buy_book.buy_id, client.name_client, 
+               SUM(book.price * buy_book.amount) AS Стоимость
+               FROM book JOIN buy_book USING(book_id)
+                       JOIN buy
+                           ON buy_book.buy_id = buy.buy_id
+                               JOIN client USDIN(client_id)
+               GROUP BY buy_book.buy_id, client.name_client
+               ORDER BY buy_book.buy_id
+            </pre>
+         </code>
+      </section>
+      <section class="experience">
+         <h3 class="experience__name">Experience</h3>
+         <p>
+            <ul>
+               <li>Several simple one-page applications</li>
+               <li>Copy loyout of <a href="https://github.com/Qry1/Qry1.github.io">Telegram</a></li>
+               <li>Fully completed all tasks from <a href="https://htmlacademy.ru/courses">HTMLAcademy</a></li>
+               <li>Finished course on <a href="https://stepik.org/course/63054">SQL</a></li>
+            </ul>
+         </p>
+      </section>
+      <section class="education">
+         <h3>Education</h3>
+         <p>
+            <b>BNTU:</b> ventilation, heat & gas supply engineer
+         </p>
+      </section>
+      <section class="languages">
+         <h3>Foreign languages</h3>
+         <p>
+            <b>B1</b> English level and <b>B2</b> German level
+         </p>
+      </section>
+   </div>
+</body>
+</html>
