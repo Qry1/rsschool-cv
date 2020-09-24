@@ -9,10 +9,10 @@
 ### Hope's and wishes
 My main goal of admission to the course is to improve my programming skills and successfully find a job.
 
-### Skils
+### Skills
 HTML5, CSS3, JS, Git, SQL
 
-### Code exmaple
+### Code example
 ```SQL
     SELECT buy_book.buy_id, client.name_client, SUM(book.price * buy_book.amount) AS Стоимость
     FROM book JOIN buy_book
